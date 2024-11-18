@@ -1,0 +1,14 @@
+1731931578042	geckodriver	INFO	Listening on 127.0.0.1:47853
+1731931578048	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "36611" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile7UZs3L"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1731931578416	Marionette	INFO	Marionette enabled
+1731931578563	Marionette	INFO	Listening on port 32987
+WebDriver BiDi listening on ws://127.0.0.1:36611
+Read port: 32987
+1731931578666	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:36611/devtools/browser/f1992612-8f90-44c9-b486-aed64fee3c68
+1731931586145	Marionette	INFO	Stopped listening on port 32987
+[Parent 166872, IPC I/O Parent] WARNING: process 166985 is a zombie: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_posix.cc:245
+[Parent 166872, IPC I/O Parent] WARNING: process 167081 is a zombie: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_posix.cc:245

@@ -1,0 +1,15 @@
+1731931663354	geckodriver	INFO	Listening on 127.0.0.1:57033
+1731931663358	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "42465" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile8LfDQE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1731931663730	Marionette	INFO	Marionette enabled
+1731931663877	Marionette	INFO	Listening on port 40717
+WebDriver BiDi listening on ws://127.0.0.1:42465
+Read port: 40717
+1731931663979	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:42465/devtools/browser/80fd58af-957c-47e8-8599-6b1e072c9334
+[Parent 167849, IPC I/O Parent] WARNING: process 167990 is a zombie: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_posix.cc:245
+1731931668837	Marionette	INFO	Stopped listening on port 40717
+1731931668929	geckodriver::marionette	ERROR	Failed to close browser connection: unknown error
+[ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
